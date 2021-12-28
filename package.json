@@ -1,0 +1,58 @@
+{
+  "name": "mvutils",
+  "version": "1.0.30",
+  "description": "realvirtual backend api",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server"
+  },
+  "author": "realvirtual team",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "as-table": "^1.0.38",
+    "aws-sdk": "^2.826.0",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "cryptoapis.io": "^1.5.2",
+    "cryptocompare": "^1.0.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "firebase-admin": "^7.0.0",
+    "https": "^1.0.0",
+    "jslinq": "^1.0.21",
+    "mssql": "^6.2.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^1.6.5",
+    "node-fetch": "^2.6.0",
+    "nodemailer": "^5.1.1",
+    "nodemailer-mandrill-transport": "^1.2.0",
+    "ololog": "^1.1.121",
+    "openssl-nodejs": "^1.0.5",
+    "path": "^0.12.7",
+    "rijndael-js": "^2.0.0",
+    "save": "^2.3.3",
+    "sequelize": "^5.22.4",
+    "soap": "^0.35.0",
+    "tedious": "^6.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monedix/rvfiscal.git"
+  },
+  "keywords": [
+    "monedix",
+    "api",
+    "cryptocurrency"
+  ],
+  "bugs": {
+    "url": "https://github.com/monedix/rvfiscal/issues"
+  },
+  "homepage": "https://realvirtual.com.mx"
+}

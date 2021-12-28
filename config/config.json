@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "mvutils",
+    "host": "localhost",
+    "port": 3306,
+    "dialect": "mysql",
+    "logging": false
+  },
+  "test": {
+    "username": "root",
+    "password": "",
+    "database": "mvutils",
+    "host": "localhost",
+    "port": 3306,
+    "dialect": "mysql",
+    "logging": false
+  },
+  "production": {
+    "username": "root",
+    "password": "",
+    "database": "mvutils",
+    "host": "localhost",
+    "port": 3306,
+    "dialect": "mysql",
+    "logging": false
+  }
+}
